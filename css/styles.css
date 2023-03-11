@@ -176,6 +176,13 @@ body {
     width: 875px;
 }
 
+.mycode {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 60px;
+    padding-bottom: 40px;
+}
+
 .modal-bgd {
     width: 100%;
     height: 100%;
