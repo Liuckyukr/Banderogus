@@ -5,7 +5,7 @@ body {
 }
 
 .wrapper {
-    width: 1170px;
+    max-width: 1170px;
     margin: 0 auto;
     height: 100%;
     position: relative;
@@ -21,7 +21,7 @@ body {
 
 .main-page-row {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 100%;
 }
 
