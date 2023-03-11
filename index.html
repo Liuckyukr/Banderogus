@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="preload" href="./img/gus-anim.gif" as="image">
+    <title>Banderogus</title>
+</head>
+<body>
+    <section class="main-page">
+        <div class="wrapper">
+        
+        <div class="main-page-row">
+            <div class="Banderogus-container">
+                <h3 class="Banderogus-greeting">
+                    Good evening, we are from Ukraine
+                </h3>
+                <h2 class="Banderogus-start-text">
+                    To start. WARNING. They flew!
+                </h2>
+                <h1 class="Banderogus-titel">
+                    Banderogus
+                </h1>
+                <p class="Banderogus-deskr">
+                    Special combat goose from biolaboratories of Ukraine. I am proud of my achievements, I defend the Motherland and support the positive spirit of the people. Glory to Ukraine!
+                </p>
+                <button class="Banderogus-launch" id="open-form-modal-btn">
+                    Run the goose
+                </button>
+            </div>
+
+                <img class="Banderogus-image" src="./img/gus.svg" alt="Banderogus">
+        </div>
+    </section>
+    <section class="gus-facts">
+          <img src="./img/trezub.svg" alt="trezub" class="trezub">
+          <h3 class="gus-title">
+            Interesting facts about banderogus
+          </h3>
+          <p class="gus-descr">
+            Usually, banderogus are extremely peaceful birds. But in case of danger, they can attack the enemy with a powerful weapon system. They also destroy psychologically, activating high-frequency hissing and flapping wings
+          </p>
+          <div class="gus-facts-row">
+               <div class="gus-fact">
+                    <img src="./img/gus1.svg" alt="gus1" class="gus-fact-img">
+                    <h4 class="gus-fact-title">
+                        Navigation system
+                    </h4>
+                    <p class="gus-fact-descr">
+                        Satellite GPS and echo sounders recognize enemy equipment even at the stage of assembly
+                    </p>
+               </div>
+               <div class="gus-fact">
+                    <img src="./img/gus2.svg" alt="gus2" class="gus-fact-img">
+                    <h4 class="gus-fact-title">
+                        Thermal imaging eyes
+                    </h4>
+                    <p class="gus-fact-descr">
+                        They help to reveal the nature of the signature of objects and significantly increase the accuracy of the shot
+                    </p>
+               </div>
+               <div class="gus-fact">
+                    <img src="./img/gus3.svg" alt="gus3" class="gus-fact-img">
+                    <h4 class="gus-fact-title">
+                        Bayrawings      
+                    </h4>
+                    <p class="gus-fact-descr">
+                        They can carry 2-4 guided missiles that hit the target at a distance of "wow" kilometers
+                    </p>
+                </div>
+          </div>
+    </section>
+    <footer class="victory-footer">
+        <div class="victory-bgd">
+            <img src="./img/trezub.svg" alt="trezub" class="trezub">
+            <h4 class="victory-title">
+                Victory is always with us!
+            </h4>
+            <p class="victory-descr">
+                The main purpose of the Banderogus is to serve the humor and kindness of our people. We will provide your smile in times when it is so necessary
+            </p>
+        </div>
+    </footer>
+    <div class="modal-bgd" id="form-modal">
+            <form action="a" class="modal-form" data-netlify="true" id="form">
+                <button class="close-btn">
+                    x  
+                </button>
+                <img src="./img/trezub.svg" alt="trezub" class="trezub">
+                <h4 class="modal-form-title">
+                    Please share your mail
+                </h4>
+                <p class="modal-form-descr">
+                    and write the goose to the banderosquad
+                </p>
+                <div class="modal-form-field">
+                    <label for="user-name" class="modal-field-name">Name</label>
+                    <input required type="text" class="modal-field-input" id="user-name" name="Ім’я">
+                </div>
+                <div class="modal-form-field">
+                    <label for="user-email" class="modal-field-name">E-mail</label>
+                    <input required type="email" class="modal-field-input" id="user-email" name="Email">
+                </div>
+                <button class="modal-form-btn" id="launch-btn">
+                    Run the goose
+                </button>
+            </form>
+    </div>
+    <div class="modal-bgd" id="success-modal">
+        <div class="modal-form">
+            <button class="close-btn">
+                x  
+            </button>
+            <img src="./img/trezub.svg" alt="trezub" class="trezub">
+            <h4 class="modal-form-title">
+                Thank you, goose successfully launched
+            </h4>
+            <p class="slava-ukraine">
+                Glory to Ukraine! 
+            </p>
+            <p class="herojam-slava">
+                Glory to heroes!
+            </p>
+        </div>
+    </div>
+    <script src="./scripts/form.js"></script>
+</body>
+
+</html>
